@@ -1,0 +1,4 @@
+serve.ps1
+Dockerfile
+.dockerignore
+.git

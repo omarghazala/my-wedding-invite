@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Save the Date — Template</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500;0,600;1,500&family=Cormorant+Garamond:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header class="hero">
+    <h1 class="hero-names">
+      <span id="name1">Partner One</span>
+      <span class="hero-amp">&amp;</span>
+      <span id="name2">Partner Two</span>
+    </h1>
+    <div class="hero-photo"><img id="hero-photo-img" src="" alt=""></div>
+    <p class="hero-tagline">are getting married!</p>
+    <div class="scroll-hint">Scroll down <span class="arrow">↓</span></div>
+  </header>
+
+  <section class="reveal-section" id="reveal-section">
+    <p class="reveal-kicker">Save the date</p>
+    <p class="reveal-date" id="reveal-date">—</p>
+    <p class="reveal-weekday" id="reveal-weekday">—</p>
+    <p class="reveal-time" id="reveal-time">—</p>
+    <p class="reveal-location" id="reveal-location">Venue Name, City</p>
+
+    <div class="countdown" id="countdown">
+      <div class="countdown-unit">
+        <span class="countdown-value" id="cd-days">00</span>
+        <span class="countdown-label">Days</span>
+      </div>
+      <div class="countdown-unit">
+        <span class="countdown-value" id="cd-hours">00</span>
+        <span class="countdown-label">Hrs</span>
+      </div>
+      <div class="countdown-unit">
+        <span class="countdown-value" id="cd-minutes">00</span>
+        <span class="countdown-label">Min</span>
+      </div>
+      <div class="countdown-unit">
+        <span class="countdown-value" id="cd-seconds">00</span>
+        <span class="countdown-label">Sec</span>
+      </div>
+    </div>
+  </section>
+
+  <section class="gallery-section">
+    <h2 class="section-title">The venue</h2>
+    <p class="section-sub">A glimpse of where we'll celebrate.</p>
+    <div class="gallery-carousel" id="venue-gallery-carousel">
+      <div class="carousel-track" id="venue-carousel-track"></div>
+      <button class="carousel-btn prev" aria-label="Previous photo">‹</button>
+      <button class="carousel-btn next" aria-label="Next photo">›</button>
+    </div>
+    <div class="carousel-dots" id="venue-carousel-dots"></div>
+  </section>
+
+  <section class="gallery-section">
+    <h2 class="section-title">Our gallery</h2>
+    <p class="section-sub">A few little moments, so far.</p>
+    <div class="gallery-carousel" id="gallery-carousel">
+      <div class="carousel-track" id="carousel-track"></div>
+      <button class="carousel-btn prev" aria-label="Previous photo">‹</button>
+      <button class="carousel-btn next" aria-label="Next photo">›</button>
+    </div>
+    <div class="carousel-dots" id="carousel-dots"></div>
+  </section>
+
+  <section class="location-section">
+    <h2 class="section-title">Location</h2>
+    <p class="location-text" id="location-text">Venue Name, City</p>
+    <a class="location-link" id="location-link" href="#" target="_blank" rel="noopener noreferrer">Open in Google Maps</a>
+  </section>
+
+  <section class="palette-section">
+    <h2 class="section-title">A little color inspiration</h2>
+    <p class="section-sub">Our palette</p>
+    <div class="palette-grid" id="palette-grid"></div>
+  </section>
+
+  <footer class="site-footer">
+    <p class="footer-names">We Can't Wait To Celebrate Together</p>
+    <p class="footer-credit" id="footer-credit">Made with this template</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
